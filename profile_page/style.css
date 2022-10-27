@@ -1,0 +1,212 @@
+.mainbox{
+    display: flex;
+}
+.container0{
+    display: flex;
+    width: 1260px;
+    height: 50px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile{
+    color: white;
+    padding-left: 210px;
+    padding-top: 10px;
+    font-size:x-large
+}
+.home{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.my-profile{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.find-connections{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.sign-out{
+    margin-top: 10px;
+    margin-left: 500px;
+    background-color: rgb(233, 96, 185);
+    font-size: large;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container1{
+    display: inline-block;
+    margin-top:20px;
+    margin-left: 200px;
+}
+.personal{
+    display: flex;
+    position:relative;
+    width: 506px;
+    height: 80px;
+    background-color: rgb(233, 96, 185);
+}
+.profile-picture{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.personal-2{
+    border-left: solid rgb(182, 176, 176);
+    border-right: solid rgb(182, 176, 176);
+    border-bottom: solid rgb(182, 176, 176);
+    width: 465px;
+    height: 200px;
+    padding-left: 35px;
+    padding-top: 70px;
+}
+.my-name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+.map-marker{
+    width: 15px;
+    height: 20px;
+}
+.my-location{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.characteristic1, .characteristic2{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: small;
+}
+.characteristic1{
+    margin-bottom: 0.1em;
+}
+.characteristic2{
+    margin-top: 0.1em;
+}
+.gear{
+    width: 15px;
+    height: 15px;
+}
+.edit-profile{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: blue;
+}
+.container2{
+    display:flexbox;
+    margin-left: 200px;
+}
+.education{
+    width: 506px;
+    height: 40px;
+    background-color: rgb(182, 176, 176);
+    color:#020001;
+    font-size:xx-small;
+}
+.education-title{
+    padding-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+}
+.education-info{
+    width: 480px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    padding-top: 15px;
+    border: solid rgb(182, 176, 176);
+}
+.first-line-education{
+    font-size: small;
+    font-weight:300;
+}
+.second-line-education{
+    font-size:smaller;
+    color: darkgray;
+}
+.third-line-education{
+    font-size: smaller;
+    color: darkgray;
+}
+.container3{
+    display: inline-block;
+    border: solid rgb(182, 176, 176);
+}
+.requests {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(182, 176, 176);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-small;
+    padding-top: 5px;
+    padding-left: 25px;
+} 
+.profile-picture2{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.accept, .no-accept{
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+}
+.accept{
+    padding-left: 50px;
+}
+.actual-requests{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+}
+.requestname2{
+    padding-right: 8px;
+    vertical-align:10px;
+}
+.requestname{
+    vertical-align:10px;
+}
+.container4{
+    display: inline-block;
+    border: solid rgb(182, 176, 176);
+    margin-top: 20px;
+}
+.connections{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(182, 176, 176);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.profile-picture3{
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+}
+.connection-names{
+    border-bottom: solid rgb(182, 176, 176);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.connection-name{
+    vertical-align:15px;
+    padding-left: 15px;
+}
+.view-more1{
+    padding: 10px;
+}
+.view-more{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+}
+.box2{
+    padding-top: 20px;
+    padding-left: 20px;
+}
