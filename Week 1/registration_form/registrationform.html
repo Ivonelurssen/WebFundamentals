@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        First Name:* <input type="text" name="first_name">
+    </div>
+    <div>
+        Last Name:* <input type="text" name="last_name">
+    </div>
+    <div>
+        Email Address:* <input type="email" name="Email">
+    </div>
+    <div>
+        Password:* <input type="password" name="password">
+    </div>
+    <div>
+        Confirmation Password:* <input type="password" name="password">
+    </div>
+    <div>
+        Birthday: <input type="date" name="dob">
+    </div>
+    <div>Gender Identity</div>
+    <div>
+        <input type="radio" name="gender" value="Male" id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="Female" id="Female">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" value="Non-binary" id="Non-binary">
+        <label for="Non-binary">Non-binary</label>
+        <input type="radio" name="gender" value="notToSay" id="notToSay">
+        <label for="notToSay">I prefer not to answer</label>
+    </div>
+    <div>A short description about myself:</div>
+    <div><textarea name="comment" cols="30" rows="10"></textarea></div>
+    <div>Favorite Language: 
+        <select name="language">
+        <option>HTML</option>
+        <option>Javascript</option>
+        <option>Python</option>
+        <option>Java</option>
+        <option>CSS</option>
+    </select>
+    </div>
+    <div>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Yes, I would like to receive periodic email updates</label>
+    </div>
+    <div><input type="submit" name="create" id="create" value="Create Account">
+    </div>
+    <div>*Indicates a required field</div>
+</body>
+</html>

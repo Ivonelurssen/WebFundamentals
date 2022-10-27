@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pet Shelter</title>
+</head>
+<body>
+    <div class="topbar">
+        <div class="topbar1">
+            <img class="heart" src="./heart-light.png" alt="heart">
+            <h1>Pet Shelter</h1>
+            <a class="btn find" href="#">Find a Pet</a>
+            <a class="btn about" href="#">About</a>
+            <button class="btn donate" onclick="hide(this)"> Donate</button>
+        </div>
+        <div class="topbar2">
+            <p class="looking">I'm looking for a...</p>
+            <p class="near">in or near...</p>
+        </div>
+        <div class="topbar3">
+            <img class="paw" src="./paw-light.png" alt="">
+            <select id="dropdown" name="petname">
+                <option value="1"> Any Pet </option>
+                <option value="2">Cat</option>
+                <option value="3">Dog</option>
+            </select>
+            <img class="pin" src="./pin-light.png" alt="pin">
+            <input class="box1" type="text" name="textbox" placeholder="City or Zip Code">
+            <button class="bff">Find your new best friend</button>
+        </div>
+    </div>
+    <div class="info">
+        <div class="pepper">
+            <img class="img1" src="./pepper.jpg" alt="pepper">
+            <div class="dog1">
+            <p class="nam1">Pepper</p>
+            <p class="par1">Pepper is a slightly shy gray tabby, but she really loves shower her human affection.</p>
+            </div>
+            <div class="littlebox">
+                <p class="petting1">3 petting(s)</p>
+                <button class="press1" onclick="add1()">Pet Pepper</button>
+            </div>
+        </div>
+        <div class="bruce">
+            <img class="img2" src="./bruce.jpg" alt="bruce">
+            <div class="dog2">
+                <p class="nam2">Bruce</p>
+                <p class="par2">Bruce is a loyal companion. He loves long walks and cold weather.</p>
+            </div>
+            <div class="littlebox">
+                <p class="petting2">5 petting(s)</p>
+                <button class="press2" onclick="add2()">Pet Bruce</button>
+            </div>
+        </div>
+        <div class="oscar">
+            <img class="img3" src="./oscar.jpg" alt="oscar">
+            <div class="dog3">
+            <p class="nam3">Oscar</p>
+            <p class="par3">Oscar is bright, energetic, and friendly. He is looking for a good home.</p>
+            </div>
+            <div class="littlebox">
+                <p class="petting3">8 petting(s)</p>
+                <button class="press3" onclick="add3()">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

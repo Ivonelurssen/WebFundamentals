@@ -1,0 +1,37 @@
+.nav{
+    width: 1290px;
+    height: 65px;
+    background-color: rgb(73, 69, 69);
+    display: flex;
+}
+.nav-title{
+    justify-content: left;
+    align-items:center;
+    margin-left: 20px;
+    color: white;
+}
+.nav-links{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 700px;
+    font-size: larger;
+    color: white;
+}
+.home{
+    padding-right: 20px;
+}
+.profile{
+    padding-right: 20px;
+}
+.find{
+    padding-right: 20px;
+}
+.btn{
+    font-size: medium;
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+a{
+    color: white;
+}
