@@ -1,0 +1,82 @@
+body{
+    background-image: linear-gradient(rgb(184, 215, 236),rgb(202, 152, 202));
+}
+h1{
+    font-size: 50px;
+    font-style: normal;
+    font-family:papyrus;
+    text-align: center;
+    color:black
+}
+.line1{
+    justify-content: space-evenly;
+    display: flex;
+    width: 900px;
+    height: 200px;
+    padding: 20px;
+    background-color:lavender;
+    margin-left: 180px;
+    border-radius: 25px;
+}
+.line2{
+    justify-content: space-evenly;
+    display: flex;
+    width: 900px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(190, 190, 224);
+    margin-left: 180px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.line3{
+    justify-content: space-evenly;
+    display: flex;
+    width: 900px;
+    height: 200px;
+    padding: 20px;
+    background-color: lightsteelblue;
+    margin-left: 180px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.line4{
+    text-align: center;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+}
+.img4{
+    width: 200px;
+    height: 200px;
+}
+.img5{
+    width: 200px;
+    height: 200px;
+}
+.img6{
+    width: 200px;
+    height: 200px;
+}
+.img7{
+    width: 200px;
+    height: 200px;
+}
+.img8{
+    width: 200px;
+    height: 200px;
+}
